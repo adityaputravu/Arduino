@@ -43,19 +43,19 @@ Servo baseServo;
 
 unsigned int ANGLE_INCREMENT = 5;
 
-static unsigned int leftServoMax    = 160;
-static unsigned int leftServoMin    = 50;
-static unsigned int rightServoMax   = 160;
-static unsigned int rightServoMin   = 20;
-static unsigned int clawServoMax    = 100;
-static unsigned int clawServoMin    = 40;
-static unsigned int baseServoMax    = 180;
-static unsigned int baseServoMin    = 0;
+const unsigned int leftServoMax    = 160;
+const unsigned int leftServoMin    = 50;
+const unsigned int rightServoMax   = 160;
+const unsigned int rightServoMin   = 20;
+const unsigned int clawServoMax    = 100;
+const unsigned int clawServoMin    = 40;
+const unsigned int baseServoMax    = 180;
+const unsigned int baseServoMin    = 0;
 
-static unsigned int leftServoReset  = 100;
-static unsigned int rightServoReset = 90 ;
-static unsigned int clawServoReset  = 65;
-static unsigned int baseServoReset  = 90;
+const unsigned int leftServoReset  = 100;
+const unsigned int rightServoReset = 90 ;
+const unsigned int clawServoReset  = 65;
+const unsigned int baseServoReset  = 90;
 
 unsigned int leftServoAngle  = leftServoReset;
 unsigned int rightServoAngle = rightServoReset;
