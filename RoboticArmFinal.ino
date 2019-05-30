@@ -9,7 +9,7 @@
 #define CLAW_SERVO  6
 #define BASE_SERVO  9
 
-// btec rubbish remote - remote-1
+// remote-1
 #define POWER_1     0xFFA25D
 #define MENU_1      0xFFE21D
 #define TEST_1      0xFF22DD
